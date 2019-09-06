@@ -3,7 +3,7 @@ import "./Homepage.css"
 const Homepage = () => {
   return (
     <ul
-      className="cb-slideshow"
+      className="carousel"
       style={{
         marginLeft: 0,
       }}
@@ -11,7 +11,12 @@ const Homepage = () => {
       <li>
         <span>Image 01</span>
         <div className="image-text">
-          <div className="row">
+          <div
+            className="row"
+            style={{
+              textAlign: "left",
+            }}
+          >
             <p>LOREM IPSUM</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
@@ -23,7 +28,12 @@ const Homepage = () => {
       <li>
         <span>Image 02</span>
         <div className="image-text">
-          <div className="row">
+          <div
+            className="row"
+            style={{
+              textAlign: "right",
+            }}
+          >
             <p>LOREM IPSUM</p>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -35,7 +45,12 @@ const Homepage = () => {
       <li>
         <span>Image 03</span>
         <div className="image-text">
-          <div className="row">
+          <div
+            className="row"
+            style={{
+              textAlign: "left",
+            }}
+          >
             <p>LOREM IPSUM</p>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
@@ -47,7 +62,12 @@ const Homepage = () => {
       <li>
         <span>Image 04</span>
         <div className="image-text">
-          <div className="row">
+          <div
+            className="row"
+            style={{
+              textAlign: "right",
+            }}
+          >
             <p>LOREM IPSUM</p>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
@@ -59,7 +79,12 @@ const Homepage = () => {
       <li>
         <span>Image 05</span>
         <div className="image-text">
-          <div className="row">
+          <div
+            className="row"
+            style={{
+              textAlign: "left",
+            }}
+          >
             <p>LOREM IPSUM</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
@@ -71,7 +96,12 @@ const Homepage = () => {
       <li>
         <span>Image 06</span>
         <div className="image-text">
-          <div className="row">
+          <div
+            className="row"
+            style={{
+              textAlign: "right",
+            }}
+          >
             <p>LOREM IPSUM</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,

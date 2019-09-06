@@ -57,6 +57,11 @@ const Navbar = ({ siteName }) => (
         </Link>
       </li>
     </ul>
+    <button id="nav-toggle">
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+    </button>
   </nav>
 )
 

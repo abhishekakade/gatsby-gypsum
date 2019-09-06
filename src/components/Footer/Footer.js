@@ -3,10 +3,8 @@ import { Link } from "gatsby"
 const Footer = () => {
   return (
     <footer>
-      <Link to="/">Home</Link>
-      <Link to="/">Products</Link>
-      <p>© 2019 by Sai India Gypsum Products</p>
-      Private Limited​
+      <Link to="/">Home&nbsp;</Link>|<Link to="/">&nbsp;Products</Link>
+      <p>© 2019 by Sai India Gypsum Products Private Limited​</p>
     </footer>
   )
 }

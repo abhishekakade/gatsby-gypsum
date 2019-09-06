@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import Homepage from "../components/Homepage/Homepage"
-import Footer from "../components/Footer/Footer"
+// import Footer from "../components/Footer/Footer"
 
 const IndexPage = () => (
   <Layout>
@@ -18,7 +18,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link> */}
-    <Footer></Footer>
+    {/* <Footer></Footer> */}
   </Layout>
 )
 

@@ -13,6 +13,7 @@
 @media screen and (max-width: 768px) {
   nav ul {
     display: none !important;
+    /* display: flex; */
   }
 
   #nav-toggle {
@@ -47,5 +48,31 @@
 
   nav h1 {
     font-size: 1.1rem !important;
+  }
+
+  /* .nav-link {
+    position: fixed;
+    background: rgba(0, 70, 143, 0.9);
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    border: 1px solid white;
+  } */
+
+  #sidebar-nav {
+    display: none;
+    width: 220px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: auto;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .active {
+    display: flex !important;
+    flex-direction: column;
   }
 }

@@ -1,0 +1,157 @@
+/* sky blue #ADDFFF */
+/* lighter blue #007dff */
+/* white #EEEEEE */
+/* dark blue #004394 from logo */
+/* passing colors = #006AFF with #FFFFFF */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product-details {
+  font-family: "Lato";
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.product-subtitle {
+  font-size: 1.25rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.product-intro {
+  font-size: 1.25rem;
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: bold;
+}
+
+.list-group {
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.checksquare {
+  /* color: #004394; */
+  color: #007dff;
+  margin-right: 0.25rem;
+}
+
+/* Tables */
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+th {
+  /* background: #006aff; */
+  background: #addfff;
+  color: #000000;
+  text-align: center;
+  border: 2px solid #000000;
+  padding: 0.5rem !important;
+}
+
+td {
+  border: 2px solid #000000;
+  /* text-align: left; */
+  padding: 0.5rem !important;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+/* Responsive Tables */
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    /* margin: 0 0 1rem 0; */
+    background: #eeeeee;
+    margin: 0;
+  }
+
+  tr:nth-child(odd) {
+    background: #addfff;
+  }
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #000000;
+    position: relative;
+    padding-left: 50% !important;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    /* top: 0; */
+    left: 0.5rem;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /* FiberCement Table 1 */
+  .fc1 td:nth-of-type(1):before {
+    content: "Attribute";
+  }
+  .fc1 td:nth-of-type(2):before {
+    content: "Benefit";
+  }
+
+  /* FiberCement Table 2 */
+  .fc2 td:nth-of-type(1):before {
+    content: "Product";
+  }
+  .fc2 td:nth-of-type(2):before {
+    content: "Thickness (mm)";
+  }
+  .fc2 td:nth-of-type(3):before {
+    content: "Width (mm)";
+  }
+  .fc2 td:nth-of-type(4):before {
+    content: "Length (mm)";
+  }
+
+  /* FiberCement Table 3 */
+  .fc3 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .fc3 td:nth-of-type(2):before {
+    content: "Specification";
+  }
+}

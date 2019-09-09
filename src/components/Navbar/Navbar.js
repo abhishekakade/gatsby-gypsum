@@ -1,19 +1,21 @@
-import React, { Fragment } from "react"
+import React from "react"
 import "./Navbar.css"
 import { Link } from "gatsby"
-const sidebarNav = document.getElementById("sidebar-nav")
+import { FacebookSquare } from "styled-icons/fa-brands"
+import { Linkedin } from "styled-icons/fa-brands"
 
 const Navbar = ({ siteName }) => {
-  const wideNav = document.getElementById("wide-nav")
-  const handleSidebar = () => {
-    console.log(sidebarNav)
-    console.log("sidebar opened!")
-    // wideNav.style.display = "none"
+  // const wideNav = document.getElementById("wide-nav")
+  let handleSidebar = () => {
+    let sidebarNav = document.getElementById("sidebar-nav")
+    let navToggle = document.getElementById("nav-toggle")
+    // sidebarNav.classList.toggle("display-flex")
+    navToggle.classList.toggle("animate-toggle")
     sidebarNav.classList.toggle("active")
+
+    // wideNav.style.display = "none"
   }
-  // const closeSidebar = () => {
-  //   console.log("sidebar closed!")
-  // }
+
   return (
     // <Fragment>
     <nav
@@ -77,18 +79,69 @@ const Navbar = ({ siteName }) => {
         <div className="line"></div>
       </button>
       <div id="sidebar-nav">
-        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-          Home
+        <Link to="/" style={{ textDecoration: "none" }}>
+          HOME
         </Link>
-        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-          Products
+        <Link to="/" style={{ textDecoration: "none" }}>
+          PRODUCTS
         </Link>
-        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-          About
+        <Link to="/" style={{ textDecoration: "none" }}>
+          ABOUT
         </Link>
-        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-          Contact
+        <Link to="/" style={{ textDecoration: "none" }}>
+          CONTACT
         </Link>
+        <a
+          id="facebook-link"
+          style={
+            {
+              // background: "#dddddd",
+            }
+          }
+          href="https://www.facebook.com/saiindiagypsum/"
+        >
+          <FacebookSquare
+            id="facebook"
+            style={{
+              color: "#dddddd",
+              // background: "#dddddd",
+              margin: 0,
+              padding: 0,
+            }}
+            size="2rem"
+            title="Sai India Gypsum on Facebook"
+          />
+        </a>
+        <a
+          id="linkedin-link"
+          href="https://www.linkedin.com/in/sai-india-gypsum-pvt-ltd-9652a128/"
+        >
+          <Linkedin
+            id="linkedin"
+            style={{
+              color: "#dddddd",
+            }}
+            size="2rem"
+            title="Sai India Gypsum on LinkedIn"
+          />
+        </a>
+        <p
+          style={{
+            fontFamily: "Raleway",
+            display: "block",
+            // border: "1px solid white",
+            color: "#dddddd",
+            position: "absolute",
+            left: 0,
+            right: 0,
+            margin: "auto",
+            bottom: "10%",
+            fontSize: "1.1rem",
+            padding: "5px",
+          }}
+        >
+          Sai India Gypsum
+        </p>
       </div>
     </nav>
     //</Fragment>

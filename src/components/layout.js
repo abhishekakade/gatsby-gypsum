@@ -31,6 +31,7 @@ const Layout = ({ children }) => {
         className="app-container"
         style={{
           height: "100vh",
+          overflow: "hidden",
         }}
       >
         <Header siteTitle={data.site.siteMetadata.title} />

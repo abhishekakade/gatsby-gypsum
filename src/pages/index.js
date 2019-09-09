@@ -5,12 +5,14 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import Homepage from "../components/Homepage/Homepage"
+import Products from "../components/Products/Products"
 // import Footer from "../components/Footer/Footer"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Homepage></Homepage>
+    <Products></Products>
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

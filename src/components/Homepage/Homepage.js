@@ -17,10 +17,9 @@ const Homepage = () => {
               textAlign: "left",
             }}
           >
-            <p>LOREM IPSUM</p>
+            <p>SAI INDIA GYPSUM</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-              magnam.
+              A Leading Manufacturer, Supplier and Exporter of Gypsum Products.
             </p>
           </div>
         </div>
@@ -34,10 +33,10 @@ const Homepage = () => {
               textAlign: "right",
             }}
           >
-            <p>LOREM IPSUM</p>
+            <p>COMPREHENSIVE RANGE</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Architecto, assumenda.
+              We provide a comprehensive range of Gypsum products to suit all
+              your needs.
             </p>
           </div>
         </div>
@@ -51,10 +50,10 @@ const Homepage = () => {
               textAlign: "left",
             }}
           >
-            <p>LOREM IPSUM</p>
+            <p>QUALITY ASSURANCE</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias,
-              aut.
+              We formulate our products using high-grade raw material procured
+              from trustworthy vendors.
             </p>
           </div>
         </div>
@@ -68,10 +67,10 @@ const Homepage = () => {
               textAlign: "right",
             }}
           >
-            <p>LOREM IPSUM</p>
+            <p>WIDE APPLICATIONS</p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
-              provident.
+              Our products are extensively used for industrial as well as
+              residential applications.
             </p>
           </div>
         </div>
@@ -87,8 +86,8 @@ const Homepage = () => {
           >
             <p>LOREM IPSUM</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-              deleniti.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi,
+              provident.
             </p>
           </div>
         </div>

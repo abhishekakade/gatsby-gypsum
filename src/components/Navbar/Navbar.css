@@ -158,6 +158,7 @@ nav-toggle:focus {
 
   #sidebar-nav {
     font-family: "Raleway", sans-serif;
+    font-weight: bold;
     display: none;
     display: flex;
     flex-direction: column;

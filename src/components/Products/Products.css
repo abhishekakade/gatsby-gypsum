@@ -15,12 +15,21 @@
   font-weight: bold;
 }
 
+.product-section {
+  padding: 1rem;
+}
+
+.table-section {
+  padding: 0;
+}
+
 .product-title {
   font-size: 1.5rem;
   font-family: "Raleway", sans-serif;
 }
 
 .product-subtitle {
+  text-align: center;
   font-size: 1.25rem;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -42,29 +51,22 @@
   /* color: #004394; */
   color: #007dff;
   margin-right: 0.25rem;
+  font-size: 1rem;
+  height: 1rem;
+  width: 1rem;
 }
 
 /* Tables */
 
-table {
-  border-collapse: collapse;
-  border: 2px solid #000000;
-  border-radius: 5px;
-  overflow-x: auto;
-}
-
 th {
-  /* background: #006aff; */
   background: #addfff;
   color: #000000;
-  text-align: center;
   border: 2px solid #000000;
   padding: 0.5rem !important;
 }
 
 td {
   border: 2px solid #000000;
-  /* text-align: left; */
   padding: 0.5rem !important;
 }
 
@@ -72,41 +74,50 @@ tr:nth-child(even) {
   background-color: #eeeeee;
 }
 
+.fr1 tr {
+  background-color: #ffffff;
+}
+
 /* Responsive Tables */
 
 @media only screen and (max-width: 760px),
   (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Force table to not be like tables anymore */
-  table,
-  thead,
-  tbody,
-  th,
-  td,
-  tr {
+
+  .responsive,
+  .responsive thead,
+  .responsive tbody,
+  .responsive th,
+  .responsive td,
+  .responsive tr {
     display: block;
+    text-align: center;
+  }
+  .responsive {
+    width: auto;
   }
 
   /* Hide table headers (but not display: none;, for accessibility) */
-  thead tr {
+  .responsive thead tr {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
 
-  tr {
+  .responsive tr {
     /* margin: 0 0 1rem 0; */
     background: #eeeeee;
     margin: 0;
   }
 
-  tr:nth-child(odd) {
+  .responsive tr:nth-child(odd) {
     background: #addfff;
   }
-  tr:nth-child(even) {
+  .responsive tr:nth-child(even) {
     background-color: #ffffff;
   }
 
-  td {
+  .responsive td {
     /* Behave  like a "row" */
     border: none;
     border-bottom: 1px solid #000000;
@@ -114,7 +125,7 @@ tr:nth-child(even) {
     padding-left: 50% !important;
   }
 
-  td:before {
+  .responsive td:before {
     /* Now like a table header */
     position: absolute;
     /* Top/left values mimic padding */
@@ -123,6 +134,10 @@ tr:nth-child(even) {
     width: 45%;
     padding-right: 10px;
     white-space: nowrap;
+  }
+
+  .responsive caption {
+    display: block;
   }
 
   /* FiberCement Table 1 */
@@ -153,5 +168,25 @@ tr:nth-child(even) {
   }
   .fc3 td:nth-of-type(2):before {
     content: "Specification";
+  }
+
+  /* FireResistant Table 2 */
+  .fr2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .fr2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .fr2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .fr2 td:nth-of-type(4):before {
+    content: "SIG – FR";
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .product-details {
+    padding: 0;
   }
 }

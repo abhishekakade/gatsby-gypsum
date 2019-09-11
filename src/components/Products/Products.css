@@ -1,8 +1,13 @@
-/* sky blue #ADDFFF */
+/* sky blue lightskyblue */
 /* lighter blue #007dff */
 /* white #EEEEEE */
 /* dark blue #004394 from logo */
 /* passing colors = #006AFF with #FFFFFF */
+/* deepskyblue */
+/* dodgerblue */
+/* lightskyblue */
+/* aliceblue */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +18,17 @@
   font-family: "Lato";
   padding: 1rem;
   font-weight: bold;
+  background: aliceblue;
 }
 
 .product-section {
   padding: 1rem;
+  background: #d2f1ffab;
 }
 
 .table-section {
   padding: 0;
+  padding-top: 1rem;
 }
 
 .product-title {
@@ -39,6 +47,10 @@
   font-size: 1.25rem;
   /* font-family: "Raleway", sans-serif; */
   font-weight: bold;
+  color: #555555;
+}
+.product-intro::first-letter {
+  margin-left: 2rem;
 }
 
 .list-group {
@@ -59,7 +71,7 @@
 /* Tables */
 
 th {
-  background: #addfff;
+  background: lightskyblue;
   color: #000000;
   border: 2px solid #000000;
   padding: 0.5rem !important;
@@ -71,10 +83,14 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #eeeeee;
+  background-color: #ffffff;
+  background-color: lightsteelblue;
 }
 
-.fr1 tr {
+.fr1 tr,
+.imp1 tr,
+.mfr1 tr,
+.mr1 tr {
   background-color: #ffffff;
 }
 
@@ -106,12 +122,12 @@ tr:nth-child(even) {
 
   .responsive tr {
     /* margin: 0 0 1rem 0; */
-    background: #eeeeee;
+    background: #ffffff;
     margin: 0;
   }
 
   .responsive tr:nth-child(odd) {
-    background: #addfff;
+    background: lightskyblue;
   }
   .responsive tr:nth-child(even) {
     background-color: #ffffff;
@@ -182,6 +198,45 @@ tr:nth-child(even) {
   }
   .fr2 td:nth-of-type(4):before {
     content: "SIG – FR";
+  }
+
+  /* Impact Resistant Table 2 */
+  /* Is single column table so content not needed */
+
+  /* Impact Resistant Table 2 */
+  .imp2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .imp2 td:nth-of-type(2):before {
+    content: "SIG - IR";
+  }
+
+  /* MFR (Moisture Fire Resistant) Table 2 */
+  .mfr2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .mfr2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .mfr2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .mfr2 td:nth-of-type(4):before {
+    content: "SIG – MRFR";
+  }
+
+  /* Moisture Resistant Table 2 */
+  .mr2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .mr2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .mr2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .mr2 td:nth-of-type(4):before {
+    content: "SIG – MR";
   }
 }
 

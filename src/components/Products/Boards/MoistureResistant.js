@@ -1,31 +1,29 @@
 import React from "react"
 
-const MFR = () => {
+const MoistureResistant = () => {
   return (
     <article className="product-details">
       <section className="product-section">
-        <h4 className="product-title">
-          SIG - Moisture Fire Resistant Gypsum Boards
-        </h4>
+        <h4 className="product-title">SIG- Moisture Resistant Gypsum Boards</h4>
 
         <p className="product-intro">
-          SIG MRFR is produced from high purity natural gypsum core being
-          sheeted in closely adhering paper liners. SIG MRFR is produced in
-          compliance to ASTM C1396 & EN 520 standards. SIG MRFR is tested and
-          certified by leading third party laboratories SIG MRFR is produced in
-          wide variety of length, width, thickness & edge types to cover the
-          entire spectrum of the requirement.
+          SIG MR is produced from high purity natural gypsum core being sheeted
+          in closely adhering paper liners. SIG MR is produced in compliance to
+          ASTM C1396 & EN 520 standards. SIG MR is tested and certified by
+          leading third party laboratories. SIG MR is produced in wide variety
+          of length, width, thickness & edge types to cover the entire spectrum
+          of the requirement.
         </p>
         <p className="product-intro">
-          SIG MRFR combines the properties of SIG FR and SIG MR Plasterboard and
-          thus can be used in wide range of applications where both of the
-          properties are desired.
+          SIG MR due to its formulation offers higher level of Moisture
+          resistance as compared to Regular Plasterboard and is thus used for
+          dry wall partitions where higher level of moisture exposure is
+          expected such as kitchen, washroom, swimming pool, sauna etc.
         </p>
         <p className="product-intro">
-          SIG MRFR is laminated with green paper on face & grey paper on the
-          back. It is high performance plasterboard designed to perform in the
-          interiors with high humidity and high requirements for fire
-          resistance. It is designed for direct attachment by screws, nails or
+          SIG MR is laminated with green paper on face & grey paper on the back.
+          It is specially designed to perform in the interiors with high
+          humidity. It is designed for direct attachment by screws, nails or
           adhesive to wood or metal framing and even existing surfaces.
         </p>
       </section>
@@ -34,7 +32,7 @@ const MFR = () => {
         <h5 className="product-subtitle">Details</h5>
 
         <table
-          className="table mfr1"
+          className="table mr1"
           style={{
             textAlign: "center",
             background: "white",
@@ -95,7 +93,7 @@ const MFR = () => {
       <section className="table-section">
         <h5 className="product-subtitle">Specifications</h5>
         <table
-          className="responsive table mfr2"
+          className="responsive table mr2"
           style={{
             textAlign: "center",
           }}
@@ -111,7 +109,7 @@ const MFR = () => {
               <th scope="col">Properties</th>
               <th scope="col">ASTM C1396</th>
               <th scope="col">DIN EN 520</th>
-              <th scope="col">SIG – MRFR</th>
+              <th scope="col">SIG – MR</th>
             </tr>
           </thead>
 
@@ -144,13 +142,13 @@ const MFR = () => {
               <td>Flexural Strength (N) Longitudinal</td>
               <td>&ge; 489</td>
               <td>&ge; 550</td>
-              <td>&ge; 644</td>
+              <td>&ge; 630</td>
             </tr>
             <tr>
               <td>Flexural Strength (N) Transverse</td>
               <td>&ge; 178</td>
               <td>&ge; 210</td>
-              <td>&ge; 270</td>
+              <td>&ge; 260</td>
             </tr>
             <tr>
               <td>Core Hardness (N)</td>
@@ -177,7 +175,7 @@ const MFR = () => {
               <td>Nail Pull (N)</td>
               <td>&ge; 356</td>
               <td>Not Specified</td>
-              <td>&ge; 400</td>
+              <td>&ge; 360</td>
             </tr>
 
             <tr>
@@ -186,7 +184,7 @@ const MFR = () => {
               </td>
               <td>-</td>
               <td>-</td>
-              <td>10 &plusmn; 0.2</td>
+              <td>9.5 &plusmn; 0.2</td>
             </tr>
 
             <tr>
@@ -209,4 +207,4 @@ const MFR = () => {
   )
 }
 
-export default MFR
+export default MoistureResistant

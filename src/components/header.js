@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar/Navbar"
 
 // sky blue #ADDFFF
 // white #EEEEEE
+// deepskyblue
+// dodgerblue
 
 const Header = ({ siteTitle }) => (
   <header

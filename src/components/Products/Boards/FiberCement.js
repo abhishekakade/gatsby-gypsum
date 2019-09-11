@@ -212,11 +212,11 @@ const FiberCement = () => {
           <tbody>
             <tr>
               <td>Density</td>
-              <td>≥ 1300kg/m3</td>
+              <td>&ge; 1300kg/m3</td>
             </tr>
             <tr>
               <td>Moisture Content</td>
-              <td>≤ 10%</td>
+              <td>&le; 10%</td>
             </tr>
             <tr>
               <td>PH Value</td>
@@ -224,15 +224,15 @@ const FiberCement = () => {
             </tr>
             <tr>
               <td>Flexural Strength</td>
-              <td>≥ 10 MPA</td>
+              <td>&ge; 10 MPA</td>
             </tr>
             <tr>
               <td>Impact Strength</td>
-              <td>≥ 7.1 kg/m2 (8mm)</td>
+              <td>&ge; 7.1 kg/m2 (8mm)</td>
             </tr>
             <tr>
               <td>Adhesion Bond Strength</td>
-              <td>≥ 7.9 kg/m2 (10mm)</td>
+              <td>&ge; 7.9 kg/m2 (10mm)</td>
             </tr>
             <tr>
               <td>Screw Withdraw Strength</td>
@@ -248,11 +248,11 @@ const FiberCement = () => {
             </tr>
             <tr>
               <td>Thermal Conductivity</td>
-              <td>≤ 0.21/W.mk</td>
+              <td>&le; 0.21/W.mk</td>
             </tr>
             <tr>
               <td>Water Absorption "After 48 Hours"</td>
-              <td>≤ 34%</td>
+              <td>&le; 34%</td>
             </tr>
             <tr>
               <td>Asbestos Content</td>

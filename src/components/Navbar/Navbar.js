@@ -103,7 +103,7 @@ const Navbar = ({ siteName }) => {
           <FacebookSquare
             id="facebook"
             style={{
-              color: "#dddddd",
+              color: "#addfff",
               // background: "#dddddd",
               margin: 0,
               padding: 0,
@@ -119,7 +119,7 @@ const Navbar = ({ siteName }) => {
           <Linkedin
             id="linkedin"
             style={{
-              color: "#dddddd",
+              color: "#addfff",
             }}
             size="2rem"
             title="Sai India Gypsum on LinkedIn"
@@ -128,8 +128,10 @@ const Navbar = ({ siteName }) => {
         <p
           style={{
             fontFamily: "Raleway",
+            fontWeight: "normal",
             display: "block",
-            // border: "1px solid white",
+            borderTop: "1px solid #dddddd",
+            borderBottom: "1px solid #dddddd",
             color: "#dddddd",
             position: "absolute",
             left: 0,
@@ -137,7 +139,7 @@ const Navbar = ({ siteName }) => {
             margin: "auto",
             bottom: "10%",
             fontSize: "1.1rem",
-            padding: "5px",
+            padding: "0.5rem",
           }}
         >
           Sai India Gypsum

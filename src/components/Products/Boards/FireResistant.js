@@ -116,8 +116,8 @@ const FireResistant = () => {
             <tr>
               <td>Thickness (mm)</td>
               <td>0.4</td>
-              <td>± 0.5</td>
-              <td>± 0.3</td>
+              <td>&plusmn; 0.5</td>
+              <td>&plusmn; 0.3</td>
             </tr>
             <tr>
               <td>Length (mm)</td>
@@ -133,48 +133,48 @@ const FireResistant = () => {
             </tr>
             <tr>
               <td>Squareness</td>
-              <td>≤ 3</td>
-              <td>≤ 2.5</td>
-              <td>≤ 2</td>
+              <td>&le; 3</td>
+              <td>&le; 2.5</td>
+              <td>&le; 2</td>
             </tr>
             <tr>
               <td>Flexural Strength (N) Longitudinal</td>
-              <td>≥ 489</td>
-              <td>≥ 550</td>
-              <td>≥ 650</td>
+              <td>&ge; 489</td>
+              <td>&ge; 550</td>
+              <td>&ge; 650</td>
             </tr>
             <tr>
               <td>Flexural Strength (N) Transverse</td>
-              <td>≥ 178</td>
-              <td>≥ 210</td>
-              <td>≥ 280</td>
+              <td>&ge; 178</td>
+              <td>&ge; 210</td>
+              <td>&ge; 280</td>
             </tr>
             <tr>
               <td>Core Hardness (N)</td>
-              <td>≥ 67</td>
+              <td>&ge; 67</td>
               <td>Not Specified</td>
-              <td>≥ 100</td>
+              <td>&ge; 100</td>
             </tr>
 
             <tr>
               <td>End hardness (N)</td>
-              <td>≥ 67</td>
+              <td>&ge; 67</td>
               <td>Not Specified</td>
-              <td>≥ 100</td>
+              <td>&ge; 100</td>
             </tr>
 
             <tr>
               <td>Edge Hardness (N)</td>
-              <td>≥ 67</td>
+              <td>&ge; 67</td>
               <td>Not Specified</td>
-              <td>≥ 100</td>
+              <td>&ge; 100</td>
             </tr>
 
             <tr>
               <td>Nail Pull (N)</td>
-              <td>≥ 356</td>
+              <td>&ge; 356</td>
               <td>Not Specified</td>
-              <td>≥ 395</td>
+              <td>&ge; 395</td>
             </tr>
           </tbody>
         </table>

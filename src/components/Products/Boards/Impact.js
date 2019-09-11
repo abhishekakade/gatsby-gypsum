@@ -34,7 +34,7 @@ const Impact = () => {
         <h5 className="product-subtitle">Details</h5>
 
         <table
-          className="table fr1"
+          className="table imp1"
           style={{
             textAlign: "center",
             background: "white",
@@ -87,6 +87,81 @@ const Impact = () => {
             </tr>
             <tr>
               <td>Face: Yellow, Back: Grey</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section className="table-section">
+        <h5 className="product-subtitle">Product Attributes & Benefits</h5>
+        <table
+          style={{
+            textAlign: "center",
+          }}
+          className="responsive table imp2"
+        >
+          <caption>Properties (Per 12.5mm)</caption>
+          <thead className="thead-dark">
+            <tr
+              style={{
+                textAlign: "center",
+              }}
+            >
+              <th scope="col">Properties</th>
+              <th scope="col">SIG - IR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Thickness (mm)</td>
+              <td>&plusmn; 0.3</td>
+            </tr>
+            <tr>
+              <td>Length (mm)</td>
+              <td>0 to -4</td>
+            </tr>
+            <tr>
+              <td>Width (mm)</td>
+              <td>0 to -3</td>
+            </tr>
+            <tr>
+              <td>Squareness</td>
+              <td>&le; 2</td>
+            </tr>
+            <tr>
+              <td>Flexural Strength (N) Longitudinal</td>
+              <td>&ge; 732</td>
+            </tr>
+
+            <tr>
+              <td>Flexural Strength (N) Transverse</td>
+              <td>&ge; 410</td>
+            </tr>
+
+            <tr>
+              <td>Nail Pull (N)</td>
+              <td>&ge; 565</td>
+            </tr>
+            <tr>
+              <td>
+                Weight (kg/m<sup>2</sup>) &plusmn; 0.2
+              </td>
+              <td>12.87</td>
+            </tr>
+            <tr>
+              <td>
+                Min. Board Density (kg/m<sup>3</sup>)
+              </td>
+              <td>1029</td>
+            </tr>
+            <tr>
+              <td>Eco Friendly</td>
+              <td>Wood Substitute</td>
+            </tr>
+
+            <tr>
+              <td>Weather Resistance</td>
+              <td>Withstands cyclic weather changes</td>
             </tr>
           </tbody>
         </table>

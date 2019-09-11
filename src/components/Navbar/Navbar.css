@@ -4,21 +4,14 @@
   box-sizing: border-box;
 }
 
-.animate-toggle {
-  margin-right: calc(220px - 4%);
-}
-
 .display-flex {
   display: flex !important;
   flex-direction: column;
 }
 
 .active {
-  /* display: flex !important; */
-  /* flex-direction: column; */
-  /* width: 200px; */
   visibility: visible !important;
-  width: 220px !important;
+  width: 300px !important;
   opacity: 1;
   padding: 1rem;
 }
@@ -30,9 +23,9 @@
   }
 
   #sidebar-nav {
-    transition: width 0.5s;
-    visibility: hidden;
+    transition: all 0.3s;
     width: 0;
+    visibility: hidden;
     display: none;
   }
 }
@@ -69,6 +62,7 @@ nav-toggle:focus {
     padding: 0;
     position: absolute;
     right: 5%;
+    z-index: 5;
 
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -146,25 +140,17 @@ nav-toggle:focus {
     font-size: 1.1rem !important;
   }
 
-  /* .nav-link {
-    position: fixed;
-    background: rgba(0, 70, 143, 0.9);
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    color: white;
-    border: 1px solid white;
-  } */
-
   #sidebar-nav {
     font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
     font-weight: bold;
-    display: none;
+    letter-spacing: 2px;
+    width: 0;
     display: flex;
     flex-direction: column;
-    visibility: hidden;
-    transition: width 0.5s;
-    width: 0;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
     text-align: center;
     margin: auto;
     position: absolute;
@@ -172,11 +158,26 @@ nav-toggle:focus {
     top: 0;
     height: 100vh;
     background: rgba(0, 0, 0, 0.85);
+    padding-bottom: 15vh;
+  }
+
+  #sidebar-nav * {
+    opacity: 0;
+  }
+  #sidebar-nav.active * {
+    opacity: 1;
   }
 
   #sidebar-nav a {
-    color: #dddddd;
-    margin-bottom: 1.2rem;
+    color: #addfff;
+    margin: 1rem;
+    overflow: hidden;
+    transition: color 1s;
+  }
+
+  #sidebar-nav a:hover {
+    color: white;
+    margin: 1rem;
     overflow: hidden;
   }
 }
@@ -195,4 +196,11 @@ nav-toggle:focus {
 #facebook-link:focus {
   transition: color 0.5s;
   color: #3b5998 !important;
+}
+
+@media screen and (max-width: 480px) {
+  .active {
+    font-size: 1.25rem;
+    width: 100vw !important;
+  }
 }

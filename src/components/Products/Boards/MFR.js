@@ -11,9 +11,9 @@ const MFR = () => {
         <p className="product-intro">
           SIG MRFR is produced from high purity natural gypsum core being
           sheeted in closely adhering paper liners. SIG MRFR is produced in
-          compliance to ASTM C1396 & EN 520 standards. SIG MRFR is tested and
+          compliance to ASTM C1396 and EN 520 standards. SIG MRFR is tested and
           certified by leading third party laboratories SIG MRFR is produced in
-          wide variety of length, width, thickness & edge types to cover the
+          wide variety of length, width, thickness and edge types to cover the
           entire spectrum of the requirement.
         </p>
         <p className="product-intro">
@@ -22,7 +22,7 @@ const MFR = () => {
           properties are desired.
         </p>
         <p className="product-intro">
-          SIG MRFR is laminated with green paper on face & grey paper on the
+          SIG MRFR is laminated with green paper on face and grey paper on the
           back. It is high performance plasterboard designed to perform in the
           interiors with high humidity and high requirements for fire
           resistance. It is designed for direct attachment by screws, nails or

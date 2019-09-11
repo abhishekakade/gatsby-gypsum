@@ -1,32 +1,45 @@
 import React from "react"
 
-const MoistureResistant = () => {
+const PlasterBoards = () => {
   return (
     <article className="product-details">
       <section className="product-section">
-        <h4 className="product-title">
-          SIG - Moisture Resistant Gypsum Boards
-        </h4>
+        <h4 className="product-title">SIG - PlasterBoards</h4>
 
         <p className="product-intro">
-          SIG MR is produced from high purity natural gypsum core being sheeted
-          in closely adhering paper liners. SIG MR is produced in compliance to
-          ASTM C1396 and EN 520 standards. SIG MR is tested and certified by
-          leading third party laboratories. SIG MR is produced in wide variety
-          of length, width, thickness and edge types to cover the entire
-          spectrum of the requirement.
+          <strong>SIG - Plasterboards</strong> are ultimate wall and ceiling
+          solutions for today's buildings, providing high levels of performance
+          in terms of
+          <em>
+            &nbsp; fire rating, acoustic insulation, thermal insulation,
+            moisture resistance and impact resistance.&nbsp;
+          </em>
+          Our Plasterboards are durable, easy-to-shape and cost-efficient, are
+          flexible and lightweight; the most practical way of construction in
+          today's and tomorrow's homes, offices, Hospitals and buildings.
+        </p>
+
+        <h5
+          className="product-title"
+          style={{
+            fontSize: "1.25rem",
+            textDecoration: "underline",
+          }}
+        >
+          Products Available in PlasterBoards -
+        </h5>
+        <h4 className="product-title">SIG - Regular Boards</h4>
+
+        <p className="product-intro">
+          Covered with ivory cardboard on face side and grey cardboard on the
+          back side with blue edge tape,
+          <strong>&nbsp;SIG Regular Gypsum Plasterboard</strong> is used as a
+          covering material for walls, ceilings, also in making partition walls
+          in new building construction or renovation work.
         </p>
         <p className="product-intro">
-          SIG MR due to its formulation offers higher level of Moisture
-          resistance as compared to Regular Plasterboard and is thus used for
-          dry wall partitions where higher level of moisture exposure is
-          expected such as kitchen, washroom, swimming pool, sauna etc.
-        </p>
-        <p className="product-intro">
-          SIG MR is laminated with green paper on face and grey paper on the
-          back. It is specially designed to perform in the interiors with high
-          humidity. It is designed for direct attachment by screws, nails or
-          adhesive to wood or metal framing and even existing surfaces.
+          It is designed for direct attachment by screws, nails or adhesive to
+          wood or metal framing and even existing surfaces.
         </p>
       </section>
 
@@ -34,7 +47,7 @@ const MoistureResistant = () => {
         <h5 className="product-subtitle">Details</h5>
 
         <table
-          className="table mr1"
+          className="table pb1"
           style={{
             textAlign: "center",
             background: "white",
@@ -74,7 +87,7 @@ const MoistureResistant = () => {
               <td>Standard 12.5mm</td>
             </tr>
             <tr>
-              <td>On request: 15/18/19</td>
+              <td>On request: 9/9.5/12/5/15/18/19</td>
             </tr>
             <tr>
               <th scope="col">Edge</th>
@@ -86,7 +99,7 @@ const MoistureResistant = () => {
               <th scope="col">Colour</th>
             </tr>
             <tr>
-              <td>Face: Green, Back: Grey</td>
+              <td>Face: Ivory, Back: Grey</td>
             </tr>
           </tbody>
         </table>
@@ -95,7 +108,7 @@ const MoistureResistant = () => {
       <section className="table-section">
         <h5 className="product-subtitle">Specifications</h5>
         <table
-          className="responsive table mr2"
+          className="responsive table pb2"
           style={{
             textAlign: "center",
           }}
@@ -111,7 +124,7 @@ const MoistureResistant = () => {
               <th scope="col">Properties</th>
               <th scope="col">ASTM C1396</th>
               <th scope="col">DIN EN 520</th>
-              <th scope="col">SIG – MR</th>
+              <th scope="col">SIG – Regular</th>
             </tr>
           </thead>
 
@@ -144,63 +157,40 @@ const MoistureResistant = () => {
               <td>Flexural Strength (N) Longitudinal</td>
               <td>&ge; 489</td>
               <td>&ge; 550</td>
-              <td>&ge; 630</td>
+              <td>&ge; 625</td>
             </tr>
             <tr>
               <td>Flexural Strength (N) Transverse</td>
               <td>&ge; 178</td>
               <td>&ge; 210</td>
-              <td>&ge; 260</td>
+              <td>&ge; 250</td>
             </tr>
             <tr>
               <td>Core Hardness (N)</td>
               <td>&ge; 67</td>
               <td>Not Specified</td>
-              <td>&ge; 100</td>
+              <td>&ge; 80.1</td>
             </tr>
 
             <tr>
               <td>End hardness (N)</td>
               <td>&ge; 67</td>
               <td>Not Specified</td>
-              <td>&ge; 100</td>
+              <td>&ge; 75.65</td>
             </tr>
 
             <tr>
               <td>Edge Hardness (N)</td>
               <td>&ge; 67</td>
               <td>Not Specified</td>
-              <td>&ge; 100</td>
+              <td>&ge; 75.65</td>
             </tr>
 
             <tr>
               <td>Nail Pull (N)</td>
               <td>&ge; 356</td>
               <td>Not Specified</td>
-              <td>&ge; 360</td>
-            </tr>
-
-            <tr>
-              <td>
-                Weight (kg/m<sup>2</sup>)
-              </td>
-              <td>-</td>
-              <td>-</td>
-              <td>9.5 &plusmn; 0.2</td>
-            </tr>
-
-            <tr>
-              <td>Water Absorption</td>
-              <td>&le; 5.0%</td>
-              <td>H-1, H-2, H-3</td>
-              <td>3%</td>
-            </tr>
-
-            <tr>
-              <td>Surface Water Absorption</td>
-              <td>&le; 1.5%</td>
-              <td>-</td>
-              <td>1.04%</td>
+              <td>&ge; 369.5</td>
             </tr>
           </tbody>
         </table>
@@ -209,4 +199,4 @@ const MoistureResistant = () => {
   )
 }
 
-export default MoistureResistant
+export default PlasterBoards

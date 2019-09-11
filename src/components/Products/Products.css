@@ -1,3 +1,16 @@
+/* 
+
+Class Names
+
+fr = Fire Resistant (SIG - FR) | 
+imp = Impact Resistant (SIG - IR) | 
+mfr = Moisture and Fire Resistant (SIG - MRFR) | 
+mr = Moisture Resistant (SIG - MR) | 
+prem = Premium (SIG - Premium)
+pb = Plaster Board (SIG - Regular)
+
+*/
+
 /* sky blue lightskyblue */
 /* lighter blue #007dff */
 /* white #EEEEEE */
@@ -46,7 +59,8 @@
 .product-intro {
   font-size: 1.25rem;
   /* font-family: "Raleway", sans-serif; */
-  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
   color: #555555;
 }
 .product-intro::first-letter {
@@ -90,7 +104,9 @@ tr:nth-child(even) {
 .fr1 tr,
 .imp1 tr,
 .mfr1 tr,
-.mr1 tr {
+.mr1 tr,
+.prem1 tr,
+.pb1 tr {
   background-color: #ffffff;
 }
 
@@ -237,6 +253,34 @@ tr:nth-child(even) {
   }
   .mr2 td:nth-of-type(4):before {
     content: "SIG – MR";
+  }
+
+  /* Premium Table 2 */
+  .prem2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .prem2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .prem2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .prem2 td:nth-of-type(4):before {
+    content: "SIG – Premium";
+  }
+
+  /* Premium Table 2 */
+  .pb2 td:nth-of-type(1):before {
+    content: "Property";
+  }
+  .pb2 td:nth-of-type(2):before {
+    content: "ASTM C1396";
+  }
+  .pb2 td:nth-of-type(3):before {
+    content: "DIN EN 520";
+  }
+  .pb2 td:nth-of-type(4):before {
+    content: "SIG – Regular";
   }
 }
 

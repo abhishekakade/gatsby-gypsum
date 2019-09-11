@@ -9,9 +9,9 @@ const FireResistant = () => {
         <p className="product-intro">
           SIG Fire Resistant Plasterboard is produced from high purity natural
           gypsum core being sheeted in closely adhering paper liners. SIG FR is
-          produced in compliance to ASTM C1396 & EN 520 standards. SIG FR due to
-          its formulation offers higher level of Fire resistance as compared to
-          Regular Plasterboard and is thus used for dry wall partitions where
+          produced in compliance to ASTM C1396 and EN 520 standards. SIG FR due
+          to its formulation offers higher level of Fire resistance as compared
+          to Regular Plasterboard and is thus used for dry wall partitions where
           such fire characteristics are specifically requested. It is to be
           noted that Fire rating of the drywall partition depends on the
           construction of the overall drywall system and thus great care needs

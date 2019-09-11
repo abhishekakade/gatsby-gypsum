@@ -9,22 +9,22 @@ const Impact = () => {
         <p className="product-intro">
           SIG Impact Resistant Board is produced from high purity natural gypsum
           core being sheeted in closely adhering paper liners. SIG IR is
-          produced in compliance to ASTM C1396 & EN 520 standards and tested
-          accordance to ASTM C1629. SIG IR is tested and certified by leading
+          produced in compliance to ASTM C1396 and EN 520 standards and tested
+          in accordance to ASTM C1629. SIG IR is tested and certified by leading
           third party laboratories. SIG IR is produced in wide variety of
-          length, width, thickness & edge types to cover the entire spectrum of
-          the requirement.
+          length, width, thickness and edge types to cover the entire spectrum
+          of the requirement.
         </p>
 
         <p className="product-intro">
-          SIG IR have high density gypsum core with glass fibers and special
-          additives in strong paper liners to provide high impact rating. SIG IR
-          is used in areas subject to crowd pressure and impact damage such as
-          corridors and circulation areas in residential, hospitals, educational
-          institutions, airports etc.
+          SIG IR boards have high density gypsum core with glass fibers and
+          special additives in strong paper liners to provide high impact
+          rating. SIG IR is used in areas subject to crowd pressure and impact
+          damage such as corridors and circulation areas in residencies,
+          hospitals, educational institutions, airports, etc.
         </p>
         <p className="product-intro">
-          SIG IR is laminated with yellow paper lining on board face & grey
+          SIG IR is laminated with yellow paper lining on board face and grey
           paper on the back. It is high performance special plasterboard
           designed for systems for high impact resistance.
         </p>
@@ -93,7 +93,7 @@ const Impact = () => {
       </section>
 
       <section className="table-section">
-        <h5 className="product-subtitle">Product Attributes & Benefits</h5>
+        <h5 className="product-subtitle">Product Attributes and Benefits</h5>
         <table
           style={{
             textAlign: "center",

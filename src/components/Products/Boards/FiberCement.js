@@ -62,7 +62,7 @@ const FiberCement = () => {
       <section className="product-section">
         <h5 className="product-subtitle">Application</h5>
         <p>
-          Fiber Cement Boards are mostly used for Internal & External Wall
+          Fiber Cement Boards are mostly used for Internal and External Wall
           cladding, wall partitions, mezzanine flooring, Roof Underlay, False
           Ceiling, Office cubical partitions, Fixed Wardrobes, Kitchen cabinets,
           Duct Covering.
@@ -90,7 +90,7 @@ const FiberCement = () => {
       </section>
 
       <section className="table-section">
-        <h5 className="product-subtitle">Product Attributes & Benefits</h5>
+        <h5 className="product-subtitle">Product Attributes and Benefits</h5>
         <table className="responsive table fc1">
           <thead className="thead-dark">
             <tr>

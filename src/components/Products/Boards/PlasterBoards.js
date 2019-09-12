@@ -22,8 +22,8 @@ const PlasterBoards = () => {
         <h5
           className="product-title"
           style={{
-            fontSize: "1.25rem",
-            textDecoration: "underline",
+            fontSize: "1.35rem",
+            color: "royalblue",
           }}
         >
           Products Available in PlasterBoards -

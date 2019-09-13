@@ -77,9 +77,10 @@ eli = Elite (SIG - Elite)
   font-weight: bold;
 }
 
-.checksquare {
-  /* color: #004394; */
-  color: #007dff;
+.checksquare,
+.plussquare {
+  /* color: royalblue; */
+  color: black;
   margin-right: 0.25rem;
   font-size: 1rem;
   height: 1rem;

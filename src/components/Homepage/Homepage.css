@@ -70,7 +70,8 @@
   left: 50%;
   transform: translate(-50%, -50%); */
 }
-/* border: 2px solid red; */
+
+/* TODO: ADD MEDIA QUERIES AND LOW RES IMAGES FOR DIFFERENT SCREEN SIZES */
 
 .carousel li:nth-child(1) span {
   background-image: url(../../images/bg1.jpg);

@@ -74,7 +74,7 @@ const FiberCement = () => {
       </section>
 
       <section className="product-section">
-        <h5 className="product-subtitle">Board Performance:</h5>
+        <h5 className="product-subtitle">Board Performance</h5>
         <p>
           Thermal Conductivity: SIG Fiber Cement Boards are test for 0.21 W/mK
           for 6mm thick board.

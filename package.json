@@ -6,7 +6,7 @@
   "author": "Abhishek K",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gatsby": "^2.15.15",
+    "gatsby": "^2.15.16",
     "gatsby-background-image": "^0.8.11",
     "gatsby-image": "^2.2.19",
     "gatsby-plugin-manifest": "^2.2.16",

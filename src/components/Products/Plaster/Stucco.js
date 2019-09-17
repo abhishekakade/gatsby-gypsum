@@ -24,55 +24,115 @@ const Stucco = () => {
       </section>
 
       <section className="product-section">
-        <h5 className="product-subtitle">Features</h5>
-        <ul className="list-group">
-          <li className="list-group-item">
-            <CheckSquare className="checksquare" size="1rem" />
-            More Strength than Traditional Plasters
-          </li>
-          <li className="list-group-item">
-            <CheckSquare className="checksquare" size="1rem" />
-            Delivers High-Quality Finishing
-          </li>
-          <li className="list-group-item">
-            <CheckSquare className="checksquare" size="1rem" />
-            Protects Against Fire
-          </li>
-          <li className="list-group-item">
-            <CheckSquare className="checksquare" size="1rem" />
-            No Shrinkage and No Cracks
-          </li>
-          <li className="list-group-item">
-            <CheckSquare className="checksquare" size="1rem" />
-            High Strength Bonding
-          </li>
-          <li className="list-group-item">
-            <CheckSquare className="checksquare" size="1rem" />
-            No Water Curing Required
-          </li>
-        </ul>
-      </section>
+        <div
+          className="main-list-container"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            alignItems: "center",
+            justifyContent: "center",
+            // negative marginTop to negate the top margin on list-container divs
+            marginTop: "-1rem",
+          }}
+        >
+          <div
+            className="list-container"
+            style={{
+              display: "inline-block",
+              margin: "1rem",
+              border: "2px solid black",
+              borderRadius: "5px",
+            }}
+          >
+            <h5
+              className="product-subtitle"
+              style={{
+                background: "black",
+                color: "#dddddd",
+                margin: 0,
+                padding: "0.5rem",
+              }}
+            >
+              Features
+            </h5>
+            <ul className="list-group">
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                More Strength than Traditional Plasters
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Delivers High-Quality Finishing
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                Protects Against Fire
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                No Shrinkage and No Cracks
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                High Strength Bonding
+              </li>
+              <li className="list-group-item">
+                <CheckSquare className="checksquare" size="1rem" />
+                No Water Curing Required
+              </li>
+            </ul>
+          </div>
+          {/* </section> */}
 
-      <section className="product-section">
-        <h5 className="product-subtitle">Advantages</h5>
-        <ul className="list-group">
-          <li className="list-group-item">
-            <PlusSquare className="plussquare" size="1rem" />
-            Saves Costs and Covers more area
-          </li>
-          <li className="list-group-item">
-            <PlusSquare className="plussquare" size="1rem" />
-            Easy to Apply and Paint
-          </li>
-          <li className="list-group-item">
-            <PlusSquare className="plussquare" size="1rem" />
-            Provides Thermal and Acoustic Insulation
-          </li>
-          <li className="list-group-item">
-            <PlusSquare className="plussquare" size="1rem" />
-            Eco-Friendly and Sustainable
-          </li>
-        </ul>
+          {/* <section className="product-section"> */}
+          <div
+            className="list-container"
+            style={{
+              display: "inline-block",
+              margin: "1rem",
+              border: "2px solid black",
+              borderRadius: "5px",
+            }}
+          >
+            <h5
+              className="product-subtitle"
+              style={{
+                background: "black",
+                color: "#dddddd",
+                margin: 0,
+                padding: "0.5rem",
+              }}
+            >
+              Advantages
+            </h5>
+            <ul className="list-group">
+              <li className="list-group-item">
+                <PlusSquare className="plussquare" size="1rem" />
+                Saves Costs and Covers more area
+              </li>
+              <li className="list-group-item">
+                <PlusSquare className="plussquare" size="1rem" />
+                Easy to Apply and Paint
+              </li>
+              <li className="list-group-item">
+                <PlusSquare className="plussquare" size="1rem" />
+                Provides Thermal and Acoustic Insulation
+              </li>
+              <li className="list-group-item">
+                <PlusSquare className="plussquare" size="1rem" />
+                Eco-Friendly and Sustainable
+              </li>
+              <li className="list-group-item">
+                <PlusSquare className="plussquare" size="1rem" />
+                Durable and Long-Lasting
+              </li>
+              <li className="list-group-item">
+                <PlusSquare className="plussquare" size="1rem" />
+                Maintenance Free
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </article>
   )

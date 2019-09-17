@@ -73,7 +73,11 @@ const Navbar = ({ siteName }) => {
           </Link>
         </li>
       </ul>
-      <button id="nav-toggle" onClick={handleSidebar}>
+      <button
+        id="nav-toggle"
+        aria-label="Navigation Menu Button"
+        onClick={handleSidebar}
+      >
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
@@ -93,12 +97,8 @@ const Navbar = ({ siteName }) => {
         </Link>
         <a
           id="facebook-link"
-          style={
-            {
-              // background: "#dddddd",
-            }
-          }
           href="https://www.facebook.com/saiindiagypsum/"
+          aria-label="Check out Sai India Gypsum on Facebook"
         >
           <FacebookSquare
             id="facebook"
@@ -115,6 +115,7 @@ const Navbar = ({ siteName }) => {
         <a
           id="linkedin-link"
           href="https://www.linkedin.com/in/sai-india-gypsum-pvt-ltd-9652a128/"
+          aria-label="Check out Sai India Gypsum on LinkedIn"
         >
           <Linkedin
             id="linkedin"

@@ -4,7 +4,7 @@ const Elite = () => {
   return (
     <article className="product-details">
       <section className="product-section">
-        <h4 className="product-title">SIG – Elite </h4>
+        <h4 className="product-title">SIG – Elite</h4>
 
         <p className="product-intro">
           <strong>SIG – Elite</strong> comes with empowered formulation that

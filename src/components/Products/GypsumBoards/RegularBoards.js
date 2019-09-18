@@ -1,6 +1,6 @@
 import React from "react"
 
-const PlasterBoards = () => {
+const RegularBoards = () => {
   return (
     <article className="product-details">
       <section className="product-section">
@@ -199,4 +199,4 @@ const PlasterBoards = () => {
   )
 }
 
-export default PlasterBoards
+export default RegularBoards

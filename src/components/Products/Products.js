@@ -5,7 +5,8 @@ import "./Products.css"
 // import MoistureResistant from "./GypsumBoards/MoistureResistant"
 // import Impact from "./GypsumBoards/Impact"
 // import MFR from "./GypsumBoards/MFR"
-import PlasterBoards from "./GypsumBoards/PlasterBoards"
+// import RegularBoards from "./GypsumBoards/RegularBoards"
+import Tiles from "./Tiles/Tiles"
 // import Premium from "./GypsumBoards/Premium"
 // import Convex from "./Plaster/Convex"
 // import Elite from "./Plaster/Elite"
@@ -15,7 +16,8 @@ const Products = () => {
   return (
     <section id="products">
       <h2>Products</h2>
-      <PlasterBoards />
+      <Tiles />
+      {/* <RegularBoards /> */}
       {/* <Stucco /> */}
       {/* <Elite /> */}
       {/* <Convex /> */}

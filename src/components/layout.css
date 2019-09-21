@@ -1,4 +1,12 @@
 /* @import url("https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap"); */
+
+/* @font-face {
+  font-family: "lovelo";
+  src: url("../../public/lovelo.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+} */
+
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway:400,800&display=swap");
 
 html {

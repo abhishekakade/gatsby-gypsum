@@ -7,6 +7,7 @@ import "./Products.css"
 // import MFR from "./GypsumBoards/MFR"
 // import RegularBoards from "./GypsumBoards/RegularBoards"
 import Tiles from "./Tiles/Tiles"
+import StatsAnimation from "../StatsAnimation/StatsAnimation"
 // import Premium from "./GypsumBoards/Premium"
 // import Convex from "./Plaster/Convex"
 // import Elite from "./Plaster/Elite"
@@ -28,6 +29,7 @@ const Products = () => {
       {/* <FireResistant /> */}
       {/* <Impact /> */}
       <h3>Wide Range of Available Products</h3>
+      <StatsAnimation />
       {/* add classification here */}
     </section>
   )

@@ -1,82 +1,71 @@
-.item-1,
-.item-2,
-.item-3 {
-  position: absolute;
-  display: block;
-  /* top: 2em; */
+/* [SLIDER] */
 
-  /* transform: translate(50%, 50%); */
-
-  width: 50%;
-
-  font-size: 1.5rem;
-
-  animation-duration: 20s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+.slide h3 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+.slide p {
+  margin-bottom: 0;
 }
 
-.item-1 {
-  animation-name: anim-1;
+#slider,
+#slider .slide {
+  text-align: center;
+  width: 100%;
+  height: 6rem;
+}
+#slider {
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 1.2em;
+  background: dodgerblue;
+}
+#slider .container {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  animation: slide-animation 10s infinite;
+}
+#slider .slide {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 20px;
 }
 
-.item-2 {
-  animation-name: anim-2;
-}
-
-.item-3 {
-  animation-name: anim-3;
-}
-
-@keyframes anim-1 {
-  0%,
-  8.3% {
-    left: -100%;
+/* [ANIMATION] */
+@keyframes slide-animation {
+  0% {
     opacity: 0;
+    bottom: -6rem;
   }
-  8.3%,
+  4% {
+    opacity: 1;
+    bottom: 0;
+  }
+  12.5% {
+    bottom: 0;
+  }
   25% {
-    left: 25%;
+    bottom: 6rem;
+  }
+  37.5% {
+    bottom: 6rem;
+  }
+  50% {
+    bottom: 12rem;
+  }
+  62.5% {
+    bottom: 12rem;
+  }
+  75% {
+    bottom: 18rem;
+  }
+  87.5% {
     opacity: 1;
-  }
-  33.33%,
-  100% {
-    left: 110%;
-    opacity: 0;
-  }
-}
-
-@keyframes anim-2 {
-  0%,
-  33.33% {
-    left: -100%;
-    opacity: 0;
-  }
-  41.63%,
-  58.29% {
-    left: 25%;
-    opacity: 1;
-  }
-  66.66%,
-  100% {
-    left: 110%;
-    opacity: 0;
-  }
-}
-
-@keyframes anim-3 {
-  0%,
-  66.66% {
-    left: -100%;
-    opacity: 0;
-  }
-  74.96%,
-  91.62% {
-    left: 25%;
-    opacity: 1;
+    bottom: 18rem;
   }
   100% {
-    left: 110%;
     opacity: 0;
+    bottom: 24rem;
   }
 }

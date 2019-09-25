@@ -3,21 +3,31 @@ import "./StatsAnimation.css"
 import "../Products/Products.css"
 const StatsAnimation = () => {
   return (
-    <article className="product-details">
-      <section className="product-section">
-        <p class="item-1">
-          This is your last chance. After this, there is no turning back.
-        </p>
-
-        <p class="item-2">
-          You take the blue pill - the story ends, you wake up in your bed and
-          believe whatever you want to believe.
-        </p>
-
-        <p class="item-3">
-          You take the red pill - you stay in Wonderland and I show you how deep
-          the rabbit-hole goes.
-        </p>
+    <article
+      className="product-details"
+      style={{
+        padding: 0,
+      }}
+    >
+      <section id="slider" className="product-section">
+        <div class="container">
+          <div class="slide">
+            <h3>2002</h3>
+            <p>Year Established</p>
+          </div>
+          <div class="slide">
+            <h3>17</h3>
+            <p>Years In Business</p>
+          </div>
+          <div class="slide">
+            <h3>9001:2008</h3>
+            <p>ISO Certification</p>
+          </div>
+          <div class="slide">
+            <h3>OHSAS</h3>
+            <p>DCS Certification</p>
+          </div>
+        </div>
       </section>
     </article>
   )

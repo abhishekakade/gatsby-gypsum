@@ -10,20 +10,20 @@ const StatsAnimation = () => {
       }}
     >
       <section id="slider" className="product-section">
-        <div class="container">
-          <div class="slide">
+        <div className="container">
+          <div className="slide">
             <h3>2002</h3>
             <p>Year Established</p>
           </div>
-          <div class="slide">
+          <div className="slide">
             <h3>17</h3>
             <p>Years In Business</p>
           </div>
-          <div class="slide">
+          <div className="slide">
             <h3>9001:2008</h3>
             <p>ISO Certification</p>
           </div>
-          <div class="slide">
+          <div className="slide">
             <h3>OHSAS</h3>
             <p>DCS Certification</p>
           </div>

@@ -27,7 +27,7 @@ const Navbar = ({ siteName }) => {
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `rgba(255, 255, 255, 0.8)`,
             textDecoration: `none`,
           }}
         >
@@ -52,23 +52,47 @@ const Navbar = ({ siteName }) => {
           // fontFamily: "Raleway",
         }}
       >
-        <li className="nav-link" style={{ marginBottom: 0 }}>
-          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+        <li style={{ marginBottom: 0 }}>
+          <Link
+            className="nav-link"
+            to="/"
+            style={{
+              textDecoration: "none",
+            }}
+          >
             Home
           </Link>
         </li>
-        <li className="nav-link" style={{ marginBottom: 0 }}>
-          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+        <li style={{ marginBottom: 0 }}>
+          <Link
+            className="nav-link"
+            to="/"
+            style={{
+              textDecoration: "none",
+            }}
+          >
             Products
           </Link>
         </li>
-        <li className="nav-link" style={{ marginBottom: 0 }}>
-          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+        <li style={{ marginBottom: 0 }}>
+          <Link
+            className="nav-link"
+            to="/"
+            style={{
+              textDecoration: "none",
+            }}
+          >
             About
           </Link>
         </li>
-        <li className="nav-link" style={{ marginBottom: 0 }}>
-          <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+        <li style={{ marginBottom: 0 }}>
+          <Link
+            className="nav-link"
+            to="/"
+            style={{
+              textDecoration: "none",
+            }}
+          >
             Contact
           </Link>
         </li>

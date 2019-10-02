@@ -1,4 +1,5 @@
 import React from "react"
+import "../../components/Products/Products.css"
 
 const RegularBoards = () => {
   return (

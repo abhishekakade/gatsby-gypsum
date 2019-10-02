@@ -1,4 +1,5 @@
 import React from "react"
+import "../../components/Products/Products.css"
 import { CheckSquare, PlusSquare } from "styled-icons/fa-solid"
 
 const Stucco = () => {

@@ -11,7 +11,7 @@ import Products from "../components/Products/Products"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Homepage></Homepage>
+    {/* <Homepage></Homepage> */}
     <Products></Products>
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>

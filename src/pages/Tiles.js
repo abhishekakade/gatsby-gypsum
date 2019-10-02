@@ -1,5 +1,6 @@
 import React from "react"
-import { PlusSquare } from "styled-icons/fa-solid"
+import "../components/Products/Products.css"
+import { CheckSquare, PlusSquare } from "styled-icons/fa-solid"
 const Tiles = () => {
   return (
     <article className="product-details">
@@ -8,8 +9,9 @@ const Tiles = () => {
 
         <p className="product-intro">
           <strong>SIG – Tiles</strong> are laminated with PVC Film on the Face
-          Side, Metalised Polyester Film on the backside They are mainly used in
-          Offices, Hospitals, High Rise Buildings, Malls, etc.
+          Side, Metalised Polyester Film on the backside. They are mainly used
+          in Offices, Hospitals, High Rise Buildings, Malls, etc. They provide
+          the standard light reflectance of more than 70%.
         </p>
       </section>
 
@@ -28,7 +30,44 @@ const Tiles = () => {
           <div
             className="list-container"
             style={{
-              display: "inline-block",
+              display: "block",
+              margin: "1rem",
+              border: "2px solid black",
+              borderRadius: "5px",
+            }}
+          >
+            <h5
+              className="product-subtitle"
+              style={{
+                background: "black",
+                color: "#dddddd",
+                margin: 0,
+                padding: "0.5rem 2rem",
+              }}
+            >
+              Available in 3 Designs
+            </h5>
+            <ul className="list-group">
+              <li>
+                <CheckSquare className="checksquare" size="1rem" />
+                SIG-154
+              </li>
+              <li>
+                <CheckSquare className="checksquare" size="1rem" />
+                SIG-569
+              </li>
+              <li>
+                <CheckSquare className="checksquare" size="1rem" />
+                SIG-975
+              </li>
+              <li>Size: 595 x 595 x 7mm</li>
+            </ul>
+          </div>
+
+          <div
+            className="list-container"
+            style={{
+              display: "block",
               margin: "1rem",
               border: "2px solid black",
               borderRadius: "5px",
@@ -62,17 +101,6 @@ const Tiles = () => {
                 <PlusSquare className="plussquare" size="1rem" />
                 No Emission of Harmful Chemicals
               </li>
-            </ul>
-          </div>
-
-          <div className="list1">
-            <h5 className="product-subtitle">
-              They are available in 3 designs:
-            </h5>
-            <ul className="list-group">
-              <li>SIG-154</li>
-              <li>SIG-569</li>
-              <li>SIG-975</li>
             </ul>
           </div>
         </div>

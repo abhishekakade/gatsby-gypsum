@@ -1,23 +1,26 @@
 import React from "react"
+import "../../components/Products/Products.css"
 
-const Convex = () => {
+const Elite = () => {
   return (
     <article className="product-details">
       <section className="product-section">
-        <h4 className="product-title">Rexon – Convex</h4>
+        <h4 className="product-title">SIG – Elite</h4>
 
         <p className="product-intro">
-          <strong>Convex</strong> is our Premium Offering in Gypsum Powders. The
-          distinguished advantage of Convex is that it is pure white in colour
-          and offers hardness superior to other gypsum plasters.
+          <strong>SIG – Elite</strong> comes with empowered formulation that
+          delivers thermal insulating and fire resisting properties that can
+          help you save energy costs and protect your living and working
+          environment.
         </p>
+
         <p className="product-intro">
-          Designed to be applied by hand up to 15mm thickness, Convex delivers a
-          professional crack free finishing ready for painting, it enhances the
-          light reflectance, imparts true colour tone and gloss for Paint. With
-          easy trowelling and application and without requiring any curing,
-          Convex achieves great results with minimal efforts and waste, can be
-          applied directly on brick, block and RCC.
+          Designed to be applied by hand up to 15mm thickness, SIG – Elite +
+          delivers a professional crack free finishing ready for painting, it
+          enhances the light reflectance, imparts true colour tone and gloss for
+          Paint. With easy trowelling and application and without requiring any
+          curing, SIG – Elite + achieves great results with minimal efforts and
+          waste, can be applied directly on brick, block and RCC.
         </p>
       </section>
 
@@ -27,7 +30,7 @@ const Convex = () => {
           style={{
             textAlign: "center",
           }}
-          className="responsive table con1"
+          className="responsive table eli1"
         >
           <thead className="thead-dark">
             <tr
@@ -42,7 +45,7 @@ const Convex = () => {
           <tbody>
             <tr>
               <td>Colour</td>
-              <td>Pure White</td>
+              <td>White</td>
             </tr>
             <tr>
               <td>
@@ -54,15 +57,15 @@ const Convex = () => {
               <td>
                 Wet Bulk Density (kg/m<sup>3</sup>)
               </td>
-              <td>1650-1750</td>
+              <td>1600-1750</td>
             </tr>
             <tr>
               <td>Initial Setting Time</td>
-              <td>12-15 Mins.</td>
+              <td>12-20 Mins.</td>
             </tr>
             <tr>
               <td>Coverage</td>
-              <td>20-22 Sqft. Per 25 Kg Bag</td>
+              <td>20-23 Sqft. Per 25 Kg Bag</td>
             </tr>
 
             <tr>
@@ -81,4 +84,4 @@ const Convex = () => {
   )
 }
 
-export default Convex
+export default Elite

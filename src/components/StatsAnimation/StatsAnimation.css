@@ -27,6 +27,7 @@
   font-size: 1.2em;
   /* background: dodgerblue; */
   background: #002b58;
+  background: linear-gradient(to right, midnightblue, #004394, midnightblue);
 }
 #slider .container {
   position: relative;

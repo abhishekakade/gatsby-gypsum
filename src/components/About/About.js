@@ -1,6 +1,6 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import constructionImage from "../../images/bg10.jpg"
+import "./About.css"
 
 const About = () => {
   return (
@@ -15,15 +15,20 @@ const About = () => {
         <img
           src={constructionImage}
           alt="Sai India Gypsum"
+          id="about-page-img"
           style={{
-            width: "700px",
-            minWidth: "",
-            maxWidth: "70%",
+            width: "65%",
+            // maxWidth: "70%",
+            height: "auto",
+            marginTop: "1rem",
             display: "block",
             margin: "auto",
+            border: "2px solid midnightblue",
+            borderRadius: "5px",
           }}
         />
         <p
+          id="about-page-intro"
           style={{
             fontSize: "1.4rem",
             lineHeight: "40px",

@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Homepage from "../components/Homepage/Homepage"
 import Products from "../components/Products/Products"
-import Footer from "../components/Footer/Footer"
+// import Footer from "../components/Footer/Footer"
 import About from "../components/About/About"
 import StatsAnimation from "../components/StatsAnimation/StatsAnimation"
 

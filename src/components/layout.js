@@ -27,15 +27,16 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div
+      {/* <div
         className="app-container"
         style={{
-          height: "100vh",
+          // height: "100vh",
+          position: "relative",
           overflow: "hidden",
         }}
-      >
-        <Header siteTitle={data.site.siteMetadata.title} />
-      </div>
+      > */}
+      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* </div> */}
       {/* <div
         style={{
           margin: `0 auto`,

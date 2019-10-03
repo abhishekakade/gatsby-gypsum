@@ -1,24 +1,18 @@
 /* Carousel Styling */
 
-.carousel,
-.carousel:after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.carousel {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   top: 0px;
   left: 0px;
   z-index: 0;
   overflow: hidden;
 }
-.carousel:after {
-  content: "";
-  /* background: transparent url(../images/pattern.png) repeat top left; */
-  background: rgba(0, 0, 0, 0.6);
-}
 
 .carousel li span {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -28,6 +22,7 @@
   background-repeat: none;
   opacity: 0;
   z-index: 0;
+  filter: brightness(30%);
   animation: imageAnimation 36s linear infinite 0s;
 }
 
@@ -78,25 +73,31 @@
 
 .carousel li:nth-child(1) span {
   background-image: url(../../images/bg1.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
 }
 .carousel li:nth-child(2) span {
   background-image: url(../../images/bg2.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
   animation-delay: 6s;
 }
 .carousel li:nth-child(3) span {
   background-image: url(../../images/bg3.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
   animation-delay: 12s;
 }
 .carousel li:nth-child(4) span {
   background-image: url(../../images/bg4.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
   animation-delay: 18s;
 }
 .carousel li:nth-child(5) span {
   background-image: url(../../images/bg5.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
   animation-delay: 24s;
 }
 .carousel li:nth-child(6) span {
   background-image: url(../../images/bg6.jpg);
+  filter: hue-rotate(0deg) brightness(50%);
   animation-delay: 30s;
 }
 

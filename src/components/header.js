@@ -10,7 +10,8 @@ import Navbar from "../components/Navbar/Navbar"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: "rgba(0, 70, 143, 0.9)",
+      background: "rgba(0, 70, 143, 0.95)",
+      // background: "rgba(0, 70, 143, 0)",
       padding: "1rem",
       position: "fixed",
       width: "100%",

@@ -31,4 +31,12 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  // plugins: [
+  //   `gatsby-transformer-sharp`,
+  //   `gatsby-plugin-sharp`,
+  //   {
+  //     resolve: `gatsby-source-filesystem`,
+  //     options: { path: `./src/images/` },
+  //   },
+  // ],
 }

@@ -2,10 +2,18 @@ import React from "react"
 import "./Homepage.css"
 const Homepage = () => {
   return (
+    // <div
+    //   style={{
+    //     margin: 0,
+    //     padding: 0,
+    //   }}
+    // >
     <ul
       className="carousel"
       style={{
         marginLeft: 0,
+        height: "100vh",
+        width: "100vw",
       }}
     >
       <li>
@@ -110,6 +118,7 @@ const Homepage = () => {
         </div>
       </li>
     </ul>
+    // </div>
   )
 }
 

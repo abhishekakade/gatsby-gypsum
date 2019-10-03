@@ -47,6 +47,10 @@ eli = Elite (SIG - Elite)
   justify-content: space-between;
 }
 
+#products-list {
+  position: static;
+}
+
 #products-list li {
   justify-content: space-between;
   border: 2px solid black;
@@ -72,9 +76,9 @@ eli = Elite (SIG - Elite)
   /* background: linear-gradient(to bottom, midnightblue, #004394); */
   background: linear-gradient(to bottom, #004394, midnightblue);
   font-size: 1.1rem;
-  /* font-family: "Lato"; */
+  /* font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif; */
   /* font-weight: bold; */
-  font-family: "Raleway";
+  font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif;
   font-weight: 400;
 }
 .main-product-summary {
@@ -90,8 +94,8 @@ eli = Elite (SIG - Elite)
   width: 100%;
   height: 3rem;
   display: block;
-  font-family: "Raleway";
-  font-family: "Lato";
+  /* font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif; */
+  font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
   background: #000000;
@@ -112,7 +116,7 @@ eli = Elite (SIG - Elite)
 /* Individual Product Pages */
 
 .product-details {
-  font-family: "Lato";
+  font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
   padding: 1rem;
   font-weight: bold;
   background: aliceblue;
@@ -130,24 +134,28 @@ eli = Elite (SIG - Elite)
 
 .product-title {
   font-size: 1.5rem;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif;
   text-align: center;
 }
 
 .product-subtitle {
   text-align: center;
   font-size: 1.25rem;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif;
   font-weight: bold;
 }
 
 .product-intro {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   /* font-family: "Raleway", sans-serif; */
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif;
   font-weight: normal;
   color: #444444;
+
+  max-width: 70ch;
+  text-align: center;
+  margin: 1rem auto;
 }
 .product-intro::first-letter {
   margin-left: 2rem;

@@ -1,0 +1,7 @@
+footer {
+  margin: 0;
+  height: fit-content;
+  background: linear-gradient(to right, midnightblue, black, midnightblue);
+  background: midnightblue;
+  background: black;
+}

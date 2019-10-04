@@ -1,0 +1,50 @@
+#contact-section {
+  background: #d2f1ffab;
+  padding: 1rem;
+}
+
+form {
+  margin: 1rem;
+  padding: 2rem;
+  width: fit-content;
+  border: 2px solid midnightblue;
+  border-radius: 5px;
+  /* background: linear-gradient(to right, aliceblue, lightsteelblue);
+  background: linear-gradient(to right, aliceblue, #d2f1ffab);
+  background: linear-gradient(to right, #d2f1ffab, aliceblue);
+  background: linear-gradient(to right, #d2f1ffab, lightsteelblue);
+  background: lightsteelblue;
+  background: aliceblue;
+  */
+  background: linear-gradient(to bottom, #d2f1ffab, skyblue);
+  background: dodgerblue;
+  background: #d2f1ffab;
+  /* background: skyblue; */
+}
+
+form * {
+  border-radius: 5px;
+}
+
+form h3 {
+  /* padding: 1rem; */
+  margin: 0 auto;
+}
+
+#submit-btn {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 0.25rem 1rem;
+}
+
+form input,
+textarea {
+  width: 320px;
+  border: 1px solid midnightblue;
+  padding: 0.25rem 0.5rem;
+}
+label {
+  display: block;
+  padding: 0.5rem 0;
+}

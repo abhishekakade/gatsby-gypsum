@@ -1,8 +1,13 @@
 import React from "react"
-import constructionImage from "../../images/bg10.jpg"
 import "./About.css"
+// import { graphql } from "gatsby"
+// import Img from "gatsby-image"
+import constructionImage from "../../images/bg10.jpg"
 
 const About = () => {
+  // console.log(this.props)
+  // const imgData = this.props
+
   return (
     <section
       id="about"
@@ -12,12 +17,13 @@ const About = () => {
     >
       <h2>ABOUT</h2>
       <section className="product-section">
+        {/* <Img fluid={imgData.data.file.childImageSharp.fixed} /> */}
         <img
           src={constructionImage}
           alt="Sai India Gypsum"
           id="about-page-img"
           style={{
-            width: "65%",
+            // width: "65%",
             // maxWidth: "70%",
             height: "auto",
             marginTop: "1rem",
@@ -27,15 +33,13 @@ const About = () => {
             borderRadius: "5px",
           }}
         />
+
         <p
           id="about-page-intro"
           style={{
-            fontSize: "1.4rem",
-            lineHeight: "40px",
             maxWidth: "65ch",
             margin: "auto",
             textAlign: "center",
-            padding: "2rem",
           }}
         >
           Established in the year <strong>2002</strong>, we,
@@ -53,3 +57,19 @@ const About = () => {
 }
 
 export default About
+
+// export const query = graphql`
+//   query {
+//     file(relativePath: { eq: "bg10.jpg" }) {
+//       childImageSharp {
+//         # Specify the image processing specifications right in the query.
+//         # Makes it trivial to update as your page's design changes.
+//         fluid(jpegProgressive: true, maxWidth: 1200) {
+//           base64
+//           srcSet
+//           ...GatsbyImageSharpFluid
+//         }
+//       }
+//     }
+//   }
+// `

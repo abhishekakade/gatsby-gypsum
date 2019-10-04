@@ -1,3 +1,6 @@
+// adding for local images
+// const path = require(`path`)
+
 module.exports = {
   siteMetadata: {
     title: `Sai India Gypsum`,
@@ -31,9 +34,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-  // plugins: [
-  //   `gatsby-transformer-sharp`,
-  //   `gatsby-plugin-sharp`,
-  //   { resolve: `gatsby-source-filesystem`, options: { path: `./src/images/` } },
-  // ],
 }

@@ -1,7 +1,14 @@
 footer {
   margin: 0;
+  padding: 2rem;
   height: fit-content;
   background: linear-gradient(to right, midnightblue, black, midnightblue);
   background: midnightblue;
   background: black;
+  color: #ddddff;
+}
+
+footer a {
+  color: #ddddff;
+  text-decoration: none;
 }

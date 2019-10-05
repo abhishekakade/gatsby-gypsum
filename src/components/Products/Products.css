@@ -53,14 +53,16 @@ eli = Elite (SIG - Elite)
 
 #products-list li {
   justify-content: space-between;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 5px;
   flex-grow: 1;
   width: 29%;
   margin: 2%;
   transition: 0.3s;
   position: relative;
-  box-shadow: 0px 3px 10px 1px black;
+  background: aliceblue;
+  /* box-shadow: 0px 3px 10px 1px midnightblue; */
+  box-shadow: 2px 3px 8px 1px #9898bb;
 }
 
 #products-list li:hover {
@@ -68,22 +70,26 @@ eli = Elite (SIG - Elite)
 }
 
 .main-product-title {
-  padding: 1rem;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  /* padding: 1rem; */
   margin-bottom: 0;
-  background: #004394;
-  color: lightsteelblue;
-  color: #d7e1ea;
+  /* background: #004394; */
+  /* color: lightsteelblue; */
+  color: midnightblue;
   /* background: linear-gradient(to bottom, midnightblue, #004394); */
-  background: linear-gradient(to bottom, #004394, midnightblue);
-  font-size: 1.1rem;
+  /* background: linear-gradient(to bottom, #004394, midnightblue); */
+  font-size: 1.25rem;
+  /* font-weight: 400; */
+  font-weight: bold;
   /* font-family: "Lato", "Lucida Sans", "Helvetica", sans-serif; */
   /* font-weight: bold; */
   font-family: "Raleway", "Lucida Sans", "Helvetica", sans-serif;
-  font-weight: 400;
 }
 .main-product-summary {
   padding: 0.5rem 1rem;
-  padding-bottom: 3rem;
+  padding-top: 0;
+  padding-bottom: 3.5rem;
 }
 
 .main-product-button {
@@ -103,13 +109,16 @@ eli = Elite (SIG - Elite)
   background: linear-gradient(to bottom, black, #444);
   transition: 0.5s;
   color: aliceblue;
-  color: lightsteelblue;
+  color: #ddddff;
   text-decoration: none !important;
+  border-radius: 0 0 5px 5px;
+  background: linear-gradient(to bottom, midnightblue, #004394);
 }
 .main-product-button:hover {
   cursor: pointer;
   /* background-color: linear-gradient(to top, black, #444); */
-  background: linear-gradient(to top, black, #444);
+  /* background: linear-gradient(to top, black, #444); */
+  background: linear-gradient(to bottom, #004394, midnightblue);
   text-decoration: underline;
 }
 
@@ -169,7 +178,8 @@ eli = Elite (SIG - Elite)
 }
 
 .checksquare,
-.plussquare {
+.plussquare,
+.phone {
   /* color: royalblue; */
   color: black;
   margin-right: 0.25rem;
